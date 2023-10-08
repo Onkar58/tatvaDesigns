@@ -1,0 +1,33 @@
+.btn-pink {
+    width: fit-content;
+    color: white;
+    padding: 0.4rem ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .btn-pink::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    transition: all 0.8s;
+  }
+  .btn-pink:hover::before {
+    transform: scaleY(1);
+  }
+  .btn-pink:hover {
+    color: black;
+  }
+
+  
