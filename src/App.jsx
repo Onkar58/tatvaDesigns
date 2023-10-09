@@ -1,11 +1,13 @@
+import Carousel from "./components/InstaSlider"
+import InstaSlider from "./components/InstaSlider"
 
 
 function App() {
 
   return (
     <>
-      <div className="text-red-800 text-5xl">
-        HEllo World
+      <div>
+        <Carousel />
       </div>
     </>
   )
