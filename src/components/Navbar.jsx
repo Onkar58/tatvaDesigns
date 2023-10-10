@@ -10,34 +10,29 @@ const Navbar = () => {
         <div className="md:hidden">
           <NavDropdown />
         </div>
-        <img className="rounded-full cursor-pointer" src={Logo} alt="Logo" width={70} />
+        <img
+          className="rounded-full cursor-pointer"
+          src={Logo}
+          alt="Logo"
+          width={70}
+        />
       </div>
       <div className="hidden md:flex text-white gap-4  ">
-        <div className="btn-pink">
-          <Link to="home" smooth="true">
-            Home
-          </Link>
-        </div>
-        <div className="btn-pink">
-          <Link to="about" smooth="true">
-            About Us
-          </Link>
-        </div>
-        <div className="btn-pink">
-          <Link to="services" smooth="true">
-            Services
-          </Link>
-        </div>
-        <div className="btn-pink">
-          <Link to="projects" smooth="true">
-            Projects
-          </Link>
-        </div>
-        <div className="btn-pink">
-          <Link to="contact" smooth="true">
-            Contact
-          </Link>
-        </div>
+        <Link to="home" smooth="true">
+          <div className="btn-pink">Home</div>
+        </Link>
+        <Link to="about" smooth="true">
+          <div className="btn-pink">About Us</div>
+        </Link>
+        <Link to="services" smooth="true">
+          <div className="btn-pink">Services</div>
+        </Link>
+        <Link to="projects" smooth="true">
+          <div className="btn-pink">Projects</div>
+        </Link>
+        <Link to="contact" smooth="true">
+          <div className="btn-pink">Contact</div>
+        </Link>
       </div>
     </div>
   );
