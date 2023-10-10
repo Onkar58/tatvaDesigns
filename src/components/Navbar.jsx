@@ -3,7 +3,7 @@ import NavDropdown from "./NavDropdown";
 import { Link } from "react-scroll";
 const Navbar = () => {
   return (
-    <div className="absolute flex justify-between items-center top-[4%] left-[8%] right-[8%] p-[10px] border-b-[1px] border-[#616161]">
+    <div className="absolute flex justify-between items-center top-[4%] left-[8%] right-[8%] p-[10px] border-b-[1px] border-[#333232]">
       <div className="flex gap-2">
         <div className="md:hidden">
           <NavDropdown />
