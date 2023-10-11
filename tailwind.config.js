@@ -11,6 +11,9 @@ export default {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-100%)" },
         }
+      },
+      backgroundImage:{
+        'contact':"url('./src/assets/images/contact.jpg')"
       }
     },
   },

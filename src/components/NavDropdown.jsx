@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { ImCross } from "react-icons/im"
 import { Link } from "react-scroll";
+import Logo from "../assets/images/LOGO.png";
 
 const NavDropdown = () => {
   const [IsOpen, setIsOpen] = useState(false);
   return (
     
-    <div>
+    <>
       <button
         onClick={() => setIsOpen(!IsOpen)}
         className=" flex flex-col gap-[0.3rem]"
@@ -20,7 +21,7 @@ const NavDropdown = () => {
         <div className="absolute top-[-44%] left-[-10%] w-[100vw] h-[100vh] flex flex-col gap-10 bg-white z-10">
           <div className="flex items-center gap-2 mx-2 my-5 cursor-pointer" onClick={() => setIsOpen(!IsOpen)}>
             <ImCross />
-            <div>LOGO</div>
+            <img className="z-10 rounded-full" src={Logo} alt="Logo" width={70} />
           </div>
 
           <div className="w-[90vw] mx-auto p-2 border-b-2 border-black text-xl cursor-pointer" >
@@ -54,7 +55,7 @@ const NavDropdown = () => {
           </div>
 
         </div>}
-    </div>
+    </>
   );
 };
 
