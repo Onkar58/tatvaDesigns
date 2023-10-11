@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import img2 from '../assets/images/img2.jpeg'
 import img3 from '../assets/images/img3.jpeg'
 import img4 from '../assets/images/img4.jpeg'
 import img5 from '../assets/images/img5.jpeg'
 import img6 from '../assets/images/img6.jpg'
 import img7 from '../assets/images/img7.jpg'
-// import React, { useState, useEffect } from 'react';
-// import './Carousel.css'; // Import your CSS file for styling
 
 const images = [
     img2,

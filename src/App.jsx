@@ -5,6 +5,7 @@ import About from "./components/About"
 import Services from "./components/Services"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import AboutUs2 from "./components/AboutUs2"
 function App() {
   return (
     <div className="overflow-x-hidden">
@@ -12,6 +13,7 @@ function App() {
       <Services/>
       <About/>
       <Carousel />
+      <AboutUs2 />
       <Projects/>
       <Contact/>
     </div>
