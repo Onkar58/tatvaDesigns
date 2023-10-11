@@ -1,5 +1,5 @@
-import Carousel from "./components/InstaSlider"
-import InstaSlider from "./components/InstaSlider"
+import Carousel from "./components/Carousel"
+import InstaSlider from "./components/Carousel"
 import Home from "./components/Home"
 import About from "./components/About"
 import Services from "./components/Services"
@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Home/>
-      <About/>
       <Services/>
+      <About/>
+      <Carousel />
       <Projects/>
       <Contact/>
     </div>
